@@ -1,0 +1,55 @@
+{% extends 'main/layout.html' %}
+{% block title %}Главная страница{% endblock %}
+{% load static %}
+
+{% block content %}
+    <div class="features_news">
+        <h1>Десерты</h1>
+    </div>
+
+<div class="perv-lin">
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img_18.png' %}" alt="tovar 1">
+        <h5>Чизкейк Нью-Йорк</h5>
+        <p class="price">149р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img_19.png' %}" alt="tovar 2">
+        <h5>Шоколадный кукис</h5>
+        <p class="price">95р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img_20.png' %}" alt="tovar 3">
+        <h5>Додо тарт</h5>
+        <p class="price">179р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+</div>
+
+<div class="vtor-lin">
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img_21.png' %}" alt="tovar 4">
+        <h5>Фондан</h5>
+        <p class="price">289р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img_22.png' %}" alt="tovar 5">
+        <h5>Бруслетики</h5>
+        <p class="price">215р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+
+    <div class="tovar-card">
+        <img src="{% static 'main/img/img_23.png' %}" alt="tovar 6">
+        <h5>Рулетики с корицей</h5>
+        <p class="price">205р</p>
+        <a href="#" class="buy-btn">Купить</a>
+    </div>
+</div>
+{% endblock %}
